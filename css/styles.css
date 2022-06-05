@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p, li {
+  font-size: 1.3rem;
+}
+
+section {
+  padding-bottom: 2rem;
+}
+
+#bio h2, #bio p {
+  display: inline;
+}
+
+#bio h2 {
+  font-size: 3.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1rem;
+
+}
+
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+#title {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10%;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+}
+
+.profile-pic {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  #title {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  .profile-pic {
+    width: 50%;
+    padding: 5%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #main-container {
+    padding: 0 20%;
+  }
+}
