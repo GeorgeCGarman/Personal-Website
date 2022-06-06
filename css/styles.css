@@ -8,26 +8,35 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+}
+
+h3 {
+  /* font-size: 1.4rem; */
+  font-weight: 200;
 }
 
 p, li {
-  font-size: 1.3rem;
+  /* font-size: 1.2rem; */
 }
 
 section {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
-#bio h2, #bio p {
-  display: inline;
+#education table {
+  text-align: center;
+}
+
+.main-paragraph {
+  /* font-size: 1.3rem; */
 }
 
 #bio h2 {
-  font-size: 3.5rem;
+  /* font-size: 4rem; */
   padding-right: 0.5rem;
-  padding-bottom: 1rem;
-
+  float: left;
+  margin: 0;
 }
 
 
