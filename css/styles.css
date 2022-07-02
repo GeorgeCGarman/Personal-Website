@@ -62,7 +62,7 @@ section {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   #title {
     padding: 0;
     text-align: center;
